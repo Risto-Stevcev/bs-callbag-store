@@ -1,0 +1,22 @@
+{
+  "name": "@ristostevcev/bs-callbag-store",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "devDependencies": {
+    "@ristostevcev/bs-callbag-basics": "^1.0.0",
+    "bs-platform": "^4.0.3"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "callbag-store": "^1.1.0"
+  }
+}

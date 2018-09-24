@@ -1,0 +1,27 @@
+{
+  "name": "@ristostevcev/bs-callbag-store",
+  "version": "1.0.0",
+  "sources": [{
+    "dir" : ".",
+    "files": ["CallbagStore.ml", "CallbagStore.mli"]
+  }, {
+    "dir": ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag"
+  ],
+  "bs-dev-dependencies": [
+    "@ristostevcev/bs-callbag-basics"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
