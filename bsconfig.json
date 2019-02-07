@@ -21,7 +21,8 @@
     "@ristostevcev/bs-callbag-basics"
   ],
   "warnings": {
-    "error" : "+101"
+    "error" : "+101+25+8+9+27"
   },
+  "bsc-flags": ["-bs-super-errors"],
   "refmt": 3
 }

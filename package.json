@@ -1,6 +1,13 @@
 {
   "name": "@ristostevcev/bs-callbag-store",
   "version": "1.0.0",
+  "description": "A callbag implementation of a redux-like store",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-callbag-store.git"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-callbag-store",
+  "bugs": "https://github.com/Risto-Stevcev/bs-callbag-store/issues",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
@@ -13,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "@ristostevcev/bs-callbag-basics": "^1.0.0",
-    "bs-platform": "^4.0.3"
+    "bs-platform": "^4.0.7"
   },
   "dependencies": {
     "@ristostevcev/bs-callbag": "^1.1.0",

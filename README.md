@@ -1,7 +1,17 @@
-open CallbagStore
-open CallbagBasics
+# bs-callbag-store
+
+A callbag implementation of a redux-like store
 
 
+## Install
+
+```sh
+npm i --save @ristostevcev/bs-callbag-store
+```
+
+## Usage
+
+```ocaml
 type state = { foobar: int }
 type action = SetFoobar of int | Default
 
@@ -19,3 +29,4 @@ let _ =
   dispatch (SetFoobar 3);
   dispatch (SetFoobar 7);
   Js.log (get_state ())
+```
