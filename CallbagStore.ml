@@ -8,7 +8,7 @@ module Internal = struct
 
   external make:
     ('state -> 'action -> 'state [@bs.uncurry]) -> 'state ->
-    ('state, 'action) t = "callbag-store" [@@bs.module]
+    ('state, 'action) t = "createStore" [@@bs.module "callbag-store"]
 
   external getState: ('state, 'action) t -> unit -> 'state = "" [@@bs.send]
   external dispatch: ('state, 'action) t -> 'action -> unit = "" [@@bs.send]

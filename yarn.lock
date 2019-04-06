@@ -158,7 +158,7 @@
   resolved "https://registry.yarnpkg.com/@ristostevcev/bs-callbag/-/bs-callbag-1.1.0.tgz#589e4b911716c72cc4fa9726222cba51f441f494"
   integrity sha512-jsPZV2cWj9gSpZDGs8xA3GxAuhCJYvB/NHuzxMw5SAGoaXVWwMZD+XtkPlnpdU9nFGGUXSyMn160Ge0MfFKxQQ==
 
-bs-platform@^4.0.3:
+bs-platform@^4.0.7:
   version "4.0.18"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.18.tgz#d17b8693ba1f714d9b27e0ddb365f2069ba4b8a0"
   integrity sha512-BwzW0iYHvREqUZIgQxJmdJrxexppLvJxYQ4LLexbhCp7uZU5DIZ5ub4ZHpkCkc8fn8bsXWc+Rrejb3csi+BoAQ==
@@ -249,10 +249,10 @@ callbag-skip@^1.0.0:
   resolved "https://registry.yarnpkg.com/callbag-skip/-/callbag-skip-1.0.0.tgz#91f60c434d1a7aba02b8b7ef1aad82da0a805ceb"
   integrity sha512-XCvIT+mDa4K4HIbEoF6mhoM1YrXq7aLVDD0JvA/Px8MN//Nuxkp4bP3ivuD2u9vyYdubXHmAD4RwHJUm8azcjQ==
 
-callbag-store@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/callbag-store/-/callbag-store-1.1.0.tgz#12a33dcd0bed2f95a3e6eb26c3eca62257c5fdd4"
-  integrity sha512-tZpnFondYaP7lw/PgF/hv0G4GcZtv2XjJQbe4xhjrPV1517Kx41JHgPEN9xtmyCseqxsmyL7wKN14ZaWW5hvfw==
+callbag-store@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/callbag-store/-/callbag-store-2.0.0.tgz#6aaa0aa1f0338ceb91e7fcb943fc746c0cc6805c"
+  integrity sha512-u2uDBdBCS7DAkPWjhzBbUg/bEafjBYdNEt5y4KVuFj6+pdhws3aaoPI2AqUC4yH+CLcJPy3qt12s7I+dfDBOng==
 
 callbag-take@^1.0.0:
   version "1.0.0"

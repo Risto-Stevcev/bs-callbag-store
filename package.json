@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@ristostevcev/bs-callbag": "^1.1.0",
-    "callbag-store": "^1.1.0"
+    "callbag-store": "^2.0.0"
   }
 }
